@@ -19,7 +19,7 @@
         name: httpd
         state: absent
 
-    - name: Open http port in firewall
+    - name: Close http port in firewall
       ansible.posix.firewalld:
         service: http
         permanent: true
