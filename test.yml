@@ -2,7 +2,7 @@
 
 - hosts: localhost
 
-  tasks;
+  tasks:
   - name: test
     debug:
       msg: "testing hellow world"
